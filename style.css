@@ -15,10 +15,19 @@ header{
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
-header .heading{ /*headerタグ内のheadingクラスにのみ反映される*/
-  font-size: 32px;
+
+.social i{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.social{
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 .nav-list{
