@@ -247,6 +247,10 @@ footer {
   margin-right: 0px; /*領域の右側余白*/
   }
   
+  .blog-box{
+    padding: 50px 5px 0px 5px;
+  }
+  
   .blog-image{
   width: 50%;
   }
@@ -257,19 +261,26 @@ footer {
   
   .sidebar{
    width: 100%;
+   padding: 0px 5px 0px;
+  }
+  
+  .common-heading{
+  margin-bottom: 50px;
   }
   
   .sidebar-contents{
-  padding: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
   }
   
   .pagination{
     margin-bottom: 50px;
+    padding-top: 20px;
   }
   
   .instagram-box{
-  width: 40%;
-  padding-top: 40%;
+  width: 47%;
+  padding-top: 47%;
   background-size: cover;
   background-position: center;
   margin: 5px;
