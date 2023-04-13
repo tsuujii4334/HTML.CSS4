@@ -133,7 +133,7 @@ main{
 
 .pagination{
   text-align: center;
-  padding-top: 50;
+  padding-top: 50px;
 }
 
 .pagination p{
@@ -221,4 +221,65 @@ footer {
 
 .footer-text{
   color: #fff;
+}
+
+@media screen and (max-width:425px) {
+  .social{
+    display: none;
+  }
+  
+  
+  .nav-list-item{
+  display: block;
+  }
+  
+  .main-visual-content{
+  width: 100%; /*横幅40%*/
+  }
+  
+  main{
+  width: 100%;
+  display: block; /*Flexboxの利用*/
+  }
+  
+  .blog{
+  width: 100%;
+  margin-right: 0px; /*領域の右側余白*/
+  }
+  
+  .blog-image{
+  width: 50%;
+  }
+  
+  .category{
+   display: none;
+  }
+  
+  .sidebar{
+   width: 100%;
+  }
+  
+  .sidebar-contents{
+  padding: 0px;
+  }
+  
+  .pagination{
+    margin-bottom: 50px;
+  }
+  
+  .instagram-box{
+  width: 40%;
+  padding-top: 40%;
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+  }
+  
+  .footer-text{
+  color: #fff;
+  font-size: 80%;
+  }
+
+
+
 }
